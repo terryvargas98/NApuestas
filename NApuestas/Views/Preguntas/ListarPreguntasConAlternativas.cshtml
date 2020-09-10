@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DAL.Entity.PreguntasConAlternativas>
+
+@{
+    ViewData["Title"] = "ListarPreguntasConAlternativas";
+}
+
+<h1>Historia del Peru</h1>
+
+<p>
+   
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <form action="Pregunta/RegistrarRespuestas">
+            @foreach (var item in Model)
+            {
+
+                <h5>Pregunta : @item.enunciado </h5>
+                <br>
+                <input type="checkbox" id="vehicle1" name="alternativa 1" value="@item.Alternativa1">
+                <label for="vehicle1">@item.Alternativa1</label>
+                <br>
+                <input type="checkbox" id="vehicle1" name="alternativa2" value="@item.Alternativa2">
+                <label for="vehicle1">@item.Alternativa2</label>
+                <br>
+                <input type="checkbox" id="vehicle1" name="alternativa3" value="@item.Alternativa3">
+                <label for="vehicle1">@item.Alternativa3</label>
+                <br>
+
+
+
+            }
+            </form>
+    </tbody>
+</table>
