@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL1", "DAL1", "{66F4A7CB-60D8-458C-ACBB-C440ACE6ECFC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logica", "Logica", "{F8D63884-11E8-4555-8505-382D250E6922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CCD91C78-F333-47E6-918E-7765D111CBEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,7 +38,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{FA54E6AB-2490-48FF-84BD-5E7D0D48F48A} = {CCD91C78-F333-47E6-918E-7765D111CBEC}
 		{C7475BC6-9883-4ECD-9606-05AD95E6970B} = {66F4A7CB-60D8-458C-ACBB-C440ACE6ECFC}
+		{6964792D-08D9-40C5-B206-32D644D476A3} = {F8D63884-11E8-4555-8505-382D250E6922}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE2230E9-BCC6-4AF7-B69D-991752BAA2D5}
